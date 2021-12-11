@@ -5,6 +5,7 @@ WORKDIR /app
 COPY package.json ./
 COPY yarn.lock ./
 COPY sca ./sca
+COPY auto.js ./
 
 RUN yarn install
 RUN npx greenlock init --config-dir greenlock.d --maintainer-email your@email.com
