@@ -19,6 +19,7 @@
   },
   "devDependencies": {
     "eslint": "^7.32.0",
+    "eslint-config-mojee": "https://git.maharshi.ninja/root/eslint-config-mojee/archive/4c0ea9d56c144227cac71fb26ec336011002433a.tar.gz",
     "eslint-config-standard": "^16.0.3",
     "eslint-plugin-import": "^2.25.3",
     "eslint-plugin-node": "^11.1.0",
